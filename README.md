@@ -1,5 +1,7 @@
 # zuulapigateway
 
+#h2db
+
 http://localhost:8033/registration
 
 {
