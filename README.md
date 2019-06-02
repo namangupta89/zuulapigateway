@@ -15,3 +15,17 @@ http://localhost:8033/registration
 	
 	
 }
+
+CREATE TABLE user_table
+(
+    id int NOT NULL,
+    created_date date ,
+    email character varying(255),
+    enabled boolean,
+    first_name character varying(255) ,
+    last_name character varying(255) ,
+    password character varying(255) ,
+    phone_number character varying(255) ,
+    role character varying(255) ,
+    CONSTRAINT user_table_pkey PRIMARY KEY (id)
+)
